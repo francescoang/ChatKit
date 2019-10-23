@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.stfalcon.chatkit.commons.ImageLoader;
 import com.stfalcon.chatkit.dialogs.DialogsList;
 import com.stfalcon.chatkit.dialogs.DialogsListAdapter;
 import com.stfalcon.chatkit.sample.R;
@@ -19,6 +20,7 @@ public class CustomHolderDialogsActivity extends DemoDialogsActivity {
     }
 
     private DialogsList dialogsList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
